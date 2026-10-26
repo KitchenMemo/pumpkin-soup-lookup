@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pumpkin Soup Lookup: Varieties, Thickeners, Fixes &amp; Storage</title>
+<meta name="description" content="Sortable, filterable reference for pumpkin soup: 14 pumpkin and squash varieties, thickeners, troubleshooting, storage times, Thermomix model checklist and a batch scaler.">
+<style>
+:root{
+  --bg:#fafaf7; --card:#ffffff; --fg:#1f2328; --muted:#59636e; --line:#d8dee4;
+  --accent:#b45309; --accent-bg:#fff4e5; --head:#f3f1ea;
+  --best:#1a7f37; --good:#0969da; --fair:#9a6700; --avoid:#cf222e;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#14161a; --card:#1b1e23; --fg:#e6e8eb; --muted:#9aa4ae; --line:#30363d;
+    --accent:#f0a24b; --accent-bg:#2a2218; --head:#22262c;
+    --best:#3fb950; --good:#58a6ff; --fair:#d29922; --avoid:#f85149;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px 48px}
+header{padding:28px 0 8px}
+h1{font-size:1.7rem;line-height:1.2;margin:0 0 6px}
+h2{font-size:1.2rem;margin:0 0 4px}
+.sub{color:var(--muted);margin:0}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:8px 0;margin:12px 0 0;display:flex;flex-wrap:wrap;gap:6px 14px}
+nav a{color:var(--accent);text-decoration:none;font-weight:600;font-size:.88rem}
+nav a:hover{text-decoration:underline}
+section{margin-top:32px;scroll-margin-top:52px}
+.note{color:var(--muted);font-size:.85rem;margin:2px 0 10px}
+.quick{background:var(--accent-bg);border:1px solid var(--accent);border-left-width:5px;border-radius:8px;padding:14px 16px;margin-top:18px}
+.quick h2{color:var(--accent);margin-bottom:8px}
+.quick ul{margin:0;padding-left:18px}
+.quick li{margin:3px 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:6px 24px}
+@media (max-width:720px){.grid2{grid-template-columns:1fr}}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}
+.controls input,.controls select,.calc input{font:inherit;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:6px;padding:6px 8px}
+.controls input[type=search]{flex:1 1 200px;min-width:160px}
+.count{color:var(--muted);font-size:.82rem;margin-left:auto}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:640px}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line)}
+th{background:var(--head);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em;white-space:nowrap;position:sticky;top:0}
+th button{all:unset;cursor:pointer;font:inherit;text-transform:inherit;letter-spacing:inherit}
+th button:hover,th button:focus-visible{color:var(--accent)}
+th[aria-sort=ascending] button::after{content:" \25B2";font-size:.7em}
+th[aria-sort=descending] button::after{content:" \25BC";font-size:.7em}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:var(--head)}
+td:first-child{font-weight:600}
+.pill{display:inline-block;padding:1px 8px;border-radius:99px;font-size:.78rem;font-weight:600;border:1px solid currentColor;white-space:nowrap}
+.best{color:var(--best)}.good{color:var(--good)}.fair{color:var(--fair)}.avoid{color:var(--avoid)}
+.tag{font-size:.74rem;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 5px;white-space:nowrap}
+.calc{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px}
+.calc .row{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:12px}
+.calc label{display:flex;flex-direction:column;font-size:.8rem;color:var(--muted);gap:3px}
+.calc input{width:150px}
+.warn{color:var(--avoid);font-weight:600;font-size:.85rem;min-height:1.2em;margin:6px 0 0}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+footer a,.note a{color:var(--accent)}
+@media print{nav,.controls{display:none}.tw{overflow:visible;border:0}th{position:static}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Pumpkin Soup Lookup</h1>
+  <p class="sub">Varieties &middot; thickeners &middot; fixes &middot; storage &middot; Thermomix checklist &middot; batch scaler. Click any column header to sort; use the boxes to filter.</p>
+</header>
+
+<nav aria-label="Sections">
+  <a href="#quick">Quick reference</a>
+  <a href="#scaler">Batch scaler</a>
+  <a href="#varieties">Varieties</a>
+  <a href="#thickeners">Thickeners</a>
+  <a href="#diets">Diet swaps</a>
+  <a href="#fixes">Fixes</a>
+  <a href="#boosters">Flavour</a>
+  <a href="#methods">Methods</a>
+  <a href="#storage">Storage</a>
+  <a href="#models">Thermomix models</a>
+</nav>
+
+<div class="quick" id="quick">
+  <h2>Quick reference</h2>
+  <div class="grid2">
+    <ul>
+      <li><strong>Reference recipe:</strong> 500 g peeled pumpkin + 500 g water, 4 portions, 30 min total (official Cookidoo pumpkin soup).</li>
+      <li><strong>Thickness control:</strong> weigh the <em>edible</em> pumpkin, hold some liquid back, thin after blending.</li>
+      <li><strong>Before blending:</strong> largest pieces must pierce easily with a fork.</li>
+      <li><strong>Season last:</strong> stocks vary widely in salt.</li>
+      <li><strong>Roast-first starting point:</strong> 200&deg;C (400&deg;F), judge by fork-tender + browned edges, not the clock.</li>
+    </ul>
+    <ul>
+      <li><strong>Soup cook temp:</strong> max 100&deg;C (212&deg;F) per Vorwerk's TM6 announcement.</li>
+      <li><strong>TM6 at 95&deg;C+:</strong> simmering basket, not the tight-fitting measuring cup.</li>
+      <li><strong>Hot blending:</strong> raise speed gradually; never exceed max fill line.</li>
+      <li><strong>Fridge:</strong> 3&ndash;4 days &middot; <strong>Freezer:</strong> ~2&ndash;3 months (quality guide).</li>
+      <li><strong>Reheat to</strong> 74&deg;C (165&deg;F). Out of the fridge max 2 h (1 h above 32&deg;C / 90&deg;F).</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============ SCALER ============ -->
+<section id="scaler">
+  <h2>Batch scaler</h2>
+  <p class="note">Scales the Cookidoo reference quantities (500 g pumpkin base) to your edible pumpkin weight. The liquid ratio is <em>your</em> trial value, not a tested formula. 1.0 = the reference recipe's 1:1.</p>
+  <div class="calc">
+    <div class="row">
+      <label>Peeled pumpkin (g)<input id="c-pump" type="number" min="50" step="50" value="500" inputmode="numeric"></label>
+      <label>Liquid per 1 g pumpkin<input id="c-ratio" type="number" min="0.1" max="2" step="0.05" value="1" inputmode="decimal"></label>
+      <label>Hold back after blending (%)<input id="c-hold" type="number" min="0" max="80" step="5" value="0" inputmode="numeric"></label>
+    </div>
+    <div class="tw"><table id="tbl-calc" style="min-width:420px">
+      <thead><tr><th>Item</th><th>Amount</th></tr></thead>
+      <tbody>
+        <tr><td>Brown onion (ref. 180 g)</td><td id="o-onion"></td></tr>
+        <tr><td>Butter (ref. 20 g)</td><td id="o-butter"></td></tr>
+        <tr><td>Carrot (ref. 1)</td><td id="o-carrot"></td></tr>
+        <tr><td>Vegetable stock paste (ref. 1 tbsp)</td><td id="o-paste"></td></tr>
+        <tr><td>Cream, optional (ref. 30 g)</td><td id="o-cream"></td></tr>
+        <tr><td>Total liquid</td><td id="o-liq"></td></tr>
+        <tr><td>&nbsp;&nbsp;Add at start</td><td id="o-start"></td></tr>
+        <tr><td>&nbsp;&nbsp;Hold back to thin after blending</td><td id="o-hold"></td></tr>
+        <tr><td>Approx. weight in bowl at blending*</td><td id="o-blend"></td></tr>
+        <tr><td>Approx. weight after thinning + cream*</td><td id="o-final"></td></tr>
+      </tbody>
+    </table></div>
+    <p class="warn" id="c-warn" role="status"></p>
+    <p class="note">*Pumpkin + onion + butter + liquid (+ cream in the second figure). Carrot and paste are not weighed in the reference recipe, so add them yourself. Compare the total with your model's maximum fill marking in its manual. Don't assume a recipe can simply be doubled.</p>
+  </div>
+</section>
+
+<!-- ============ VARIETIES ============ -->
+<section id="varieties">
+  <h2>Pumpkin &amp; squash varieties</h2>
+  <p class="note">General culinary descriptions for choosing what you can actually buy; names vary by region. "Guide" rows follow the source guide's variety notes. Not lab-tested results.</p>
+  <div class="controls" data-for="tbl-var">
+    <input type="search" data-role="search" placeholder="Search name, region, flavour&hellip;" aria-label="Search varieties">
+    <select data-role="filter" data-attr="fit" aria-label="Soup fit"><option value="">Soup fit: any</option><option value="best">Best</option><option value="good">Good</option><option value="fair">Fair</option><option value="avoid">Avoid</option></select>
+    <select data-role="filter" data-attr="skin" aria-label="Skin"><option value="">Skin: any</option><option value="peel">Peel it</option><option value="edible">Skin edible once cooked</option><option value="test">Test it</option><option value="scoop">Roast &amp; scoop</option></select>
+    <select data-role="filter" data-attr="region" aria-label="Region"><option value="">Region: any</option><option value="au">Australia / NZ</option><option value="us">US / Canada</option><option value="uk">UK / Europe</option><option value="jp">Japan</option><option value="global">Widely available</option></select>
+    <span class="count"></span>
+  </div>
+  <div class="tw"><table id="tbl-var" class="sortable">
+    <thead><tr>
+      <th><button type="button">Variety</button></th>
+      <th><button type="button">Also called / where common</button></th>
+      <th><button type="button">Flesh &amp; flavour</button></th>
+      <th><button type="button">Soup fit</button></th>
+      <th><button type="button">Skin in blended soup</button></th>
+      <th><button type="button">Tip</button></th>
+      <th><button type="button">Basis</button></th>
+    </tr></thead>
+    <tbody>
+      <tr data-fit="best" data-skin="peel" data-region="au global"><td>Butternut</td><td>Butternut pumpkin (AU/NZ); widely sold</td><td>Smooth, fine-grained orange flesh; mild nutty sweetness</td><td data-sort="1"><span class="pill best">Best</span></td><td>Peel it</td><td>Predictable choice for smooth purée; peel, remove seeds and fibrous centre.</td><td><span class="tag">Guide</span></td></tr>
+      <tr data-fit="best" data-skin="edible" data-region="us uk global"><td>Red kuri</td><td>Uchiki kuri, orange Hokkaido; US, UK/Europe, Japan</td><td>Dense, sweet, chestnut-like</td><td data-sort="1"><span class="pill best">Best</span></td><td>Skin edible once cooked</td><td>No peeling needed for many cooks; still check for fibrous flecks.</td><td><span class="tag">General</span></td></tr>
+      <tr data-fit="best" data-skin="edible" data-region="jp au global"><td>Kabocha</td><td>Japanese squash; Japan, widely sold</td><td>Dense, dry, sweet flesh</td><td data-sort="1"><span class="pill best">Best</span></td><td>Skin edible once cooked</td><td>Skin can leave green flecks; peel for a uniformly orange soup. Different from Kent/Jap, not an exact swap.</td><td><span class="tag">Guide</span></td></tr>
+      <tr data-fit="good" data-skin="peel" data-region="au"><td>Kent</td><td>Kent pumpkin; common name in Australia</td><td>Dense, savoury-sweet; sweetness and density vary</td><td data-sort="2"><span class="pill good">Good</span></td><td>Peel it</td><td>Peel for consistent smoothness unless you've verified skin softening.</td><td><span class="tag">Guide</span></td></tr>
+      <tr data-fit="good" data-skin="test" data-region="au"><td>Jap</td><td>Jap / Japanese pumpkin; common name in Australia (kabocha-type)</td><td>Dense, rich flavour; varies by cultivar</td><td data-sort="2"><span class="pill good">Good</span></td><td>Test it</td><td>Test skin tenderness separately from flesh texture; compare peeled vs unpeeled.</td><td><span class="tag">Guide</span></td></tr>
+      <tr data-fit="good" data-skin="peel" data-region="au uk"><td>Crown Prince</td><td>Blue-grey skin; AU/NZ, UK</td><td>Sweet, dense orange flesh</td><td data-sort="2"><span class="pill good">Good</span></td><td>Peel it</td><td>Hard skin: wedge it, roast, then scoop if peeling raw is awkward.</td><td><span class="tag">General</span></td></tr>
+      <tr data-fit="good" data-skin="scoop" data-region="au"><td>Queensland Blue</td><td>Qld Blue; Australia</td><td>Orange flesh, rich flavour</td><td data-sort="2"><span class="pill good">Good</span></td><td>Roast &amp; scoop</td><td>Very hard skin; roasting wedges first makes scooping easier (and lowers the liquid you need).</td><td><span class="tag">General</span></td></tr>
+      <tr data-fit="good" data-skin="scoop" data-region="au"><td>Jarrahdale</td><td>Blue-grey, ribbed; AU/NZ</td><td>Firm, sweet flesh</td><td data-sort="2"><span class="pill good">Good</span></td><td>Roast &amp; scoop</td><td>Ribs make peeling fiddly; roast and scoop.</td><td><span class="tag">General</span></td></tr>
+      <tr data-fit="good" data-skin="peel" data-region="us uk"><td>Sugar pumpkin</td><td>Sugar pie / pie pumpkin; US, Canada, UK</td><td>Sweet, fine-textured, less stringy than carving types</td><td data-sort="2"><span class="pill good">Good</span></td><td>Peel it</td><td>A different squash type from Kent/Jap; weigh your own edible yield.</td><td><span class="tag">Guide</span></td></tr>
+      <tr data-fit="good" data-skin="edible" data-region="us"><td>Delicata</td><td>Sweet potato squash; US</td><td>Creamy, sweet</td><td data-sort="2"><span class="pill good">Good</span></td><td>Skin edible once cooked</td><td>Small with a large seed cavity, so edible yield is lower; weigh after trimming.</td><td><span class="tag">General</span></td></tr>
+      <tr data-fit="good" data-skin="scoop" data-region="us global"><td>Hubbard</td><td>US, widely grown</td><td>Dense, mildly sweet</td><td data-sort="2"><span class="pill good">Good</span></td><td>Roast &amp; scoop</td><td>Thick, tough skin; roast then scoop.</td><td><span class="tag">General</span></td></tr>
+      <tr data-fit="fair" data-skin="scoop" data-region="us global"><td>Acorn</td><td>US, widely sold</td><td>Mild flavour; flesh can be slightly fibrous</td><td data-sort="3"><span class="pill fair">Fair</span></td><td>Roast &amp; scoop</td><td>Check for fibres and make sure it's fully tender before blending.</td><td><span class="tag">General</span></td></tr>
+      <tr data-fit="fair" data-skin="peel" data-region="us uk global"><td>Carving pumpkin</td><td>Jack-o'-lantern type; US, UK</td><td>Bred for size; milder, often wetter and stringier</td><td data-sort="3"><span class="pill fair">Fair</span></td><td>Peel it</td><td>Expect to manage extra moisture and fibres; weigh edible flesh only.</td><td><span class="tag">General</span></td></tr>
+      <tr data-fit="avoid" data-skin="peel" data-region="global"><td>Spaghetti squash</td><td>Widely sold</td><td>Mild; cooks into strands</td><td data-sort="4"><span class="pill avoid">Avoid</span></td><td>Peel it</td><td>Strands don't give a smooth purée; better kept for other dishes.</td><td><span class="tag">General</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ THICKENERS ============ -->
+<section id="thickeners">
+  <h2>Thickeners &amp; creaminess add-ins</h2>
+  <p class="note">Thick &ne; rich: starch adds body, fat adds richness. If soup is watery, first check for undercooked pumpkin or too much liquid. *Vegan if all other ingredients are.</p>
+  <div class="controls" data-for="tbl-thick">
+    <input type="search" data-role="search" placeholder="Search add-ins&hellip;" aria-label="Search add-ins">
+    <select data-role="filter" data-attr="df" aria-label="Dairy-free"><option value="">Dairy-free: any</option><option value="yes">Dairy-free only</option><option value="no">Contains dairy</option></select>
+    <select data-role="filter" data-attr="effect" aria-label="Main effect"><option value="">Effect: any</option><option value="body">Body (starch)</option><option value="rich">Richness (fat)</option><option value="both">Body + richness</option></select>
+    <span class="count"></span>
+  </div>
+  <div class="tw"><table id="tbl-thick" class="sortable">
+    <thead><tr>
+      <th><button type="button">Add-in</button></th>
+      <th><button type="button">Main effect</button></th>
+      <th><button type="button">Flavour change</button></th>
+      <th><button type="button">Dairy-free</button></th>
+      <th><button type="button">Vegan*</button></th>
+      <th><button type="button">Allergen / note</button></th>
+      <th><button type="button">Basis</button></th>
+    </tr></thead>
+    <tbody>
+      <tr data-df="yes" data-effect="body"><td>Regular potato</td><td>Adds starch and vegetable body</td><td>Usually mild</td><td>Yes</td><td>Yes</td><td>Cook until fully soft before blending.</td><td><span class="tag">Guide</span></td></tr>
+      <tr data-df="yes" data-effect="body"><td>Sweet potato</td><td>Adds body and sweetness</td><td>Noticeably sweeter</td><td>Yes</td><td>Yes</td><td>Pairs with acid if the soup is already sweet.</td><td><span class="tag">Guide</span></td></tr>
+      <tr data-df="yes" data-effect="body"><td>Rice (small amount)</td><td>Starch thickener</td><td>Neutral</td><td>Yes</td><td>Yes</td><td>Cookidoo's soups guide suggests small amounts of potato or rice.</td><td><span class="tag">Guide</span></td></tr>
+      <tr data-df="yes" data-effect="body"><td>Carrot</td><td>Vegetable body and sweetness</td><td>Sweeter</td><td>Yes</td><td>Yes</td><td>In the reference recipe (1 carrot per 500 g pumpkin).</td><td><span class="tag">Guide</span></td></tr>
+      <tr data-df="yes" data-effect="rich"><td>Coconut milk</td><td>Richness, creamy mouthfeel</td><td>Coconut flavour; may taste sweeter</td><td>Yes</td><td>Yes</td><td>May change texture after freezing.</td><td><span class="tag">Guide</span></td></tr>
+      <tr data-df="no" data-effect="rich"><td>Dairy cream</td><td>Richness, smooth mouthfeel</td><td>Creamier, dairy-forward</td><td>No</td><td>No</td><td>Milk. Ref. 30 g per 500 g pumpkin, optional; taste the plain soup first.</td><td><span class="tag">Guide</span></td></tr>
+      <tr data-df="no" data-effect="rich"><td>Butter</td><td>Richness and flavour</td><td>Rounded, savoury</td><td>No</td><td>No</td><td>Milk. Swap for a plant oil when dairy-free.</td><td><span class="tag">Guide</span></td></tr>
+      <tr data-df="yes" data-effect="both"><td>Soaked cashews</td><td>Body and richness when blended</td><td>Mild, slightly sweet</td><td>Yes</td><td>Yes</td><td>Tree-nut allergen. Blend until completely smooth.</td><td><span class="tag">General</span></td></tr>
+      <tr data-df="yes" data-effect="body"><td>Red lentils</td><td>Starch and body</td><td>Earthier</td><td>Yes</td><td>Yes</td><td>Must be fully cooked and soft before blending.</td><td><span class="tag">General</span></td></tr>
+      <tr data-df="yes" data-effect="body"><td>White beans (e.g. cannellini)</td><td>Creamy body</td><td>Neutral</td><td>Yes</td><td>Yes</td><td>Drain and rinse canned beans.</td><td><span class="tag">General</span></td></tr>
+      <tr data-df="no" data-effect="rich"><td>Plain yoghurt / cr&egrave;me fra&icirc;che</td><td>Tangy richness</td><td>Sour, fresh</td><td>No</td><td>No</td><td>Milk. Stir in after blending and avoid boiling, as it can split.</td><td><span class="tag">General</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ DIETS ============ -->
+<section id="diets">
+  <h2>Diet &amp; stock swaps</h2>
+  <p class="note">Ingredient choices, not dietary guarantees. Labels, cross-contact and individual requirements still matter.</p>
+  <div class="controls" data-for="tbl-diet">
+    <input type="search" data-role="search" placeholder="Search vegan, gluten, sodium&hellip;" aria-label="Search swaps">
+    <span class="count"></span>
+  </div>
+  <div class="tw"><table id="tbl-diet" class="sortable" style="min-width:560px">
+    <thead><tr><th><button type="button">Need</button></th><th><button type="button">Adjustment</button></th><th><button type="button">Check</button></th></tr></thead>
+    <tbody>
+      <tr><td>Vegan</td><td>Vegetable stock plus plant-based additions such as coconut milk or potato</td><td>Confirm the stock paste and every other ingredient has no animal-derived parts</td></tr>
+      <tr><td>Dairy-free</td><td>Omit butter and cream; use a suitable plant oil, coconut milk if you want richness</td><td>Check labels, especially stock products</td></tr>
+      <tr><td>Gluten-free</td><td>Use a certified or clearly labelled gluten-free stock</td><td>Check packaged paste and seasonings for gluten-containing ingredients</td></tr>
+      <tr><td>Lower-sodium</td><td>Use a lower-sodium stock, or dilute concentrate per its label</td><td>Taste before adding salt; strength differs by product</td></tr>
+      <tr><td>Vegetable stock</td><td>Default for vegetarian/vegan versions</td><td>Salt level varies; 1 tbsp of one paste is not equal to another</td></tr>
+      <tr><td>Chicken stock</td><td>Different, more savoury character</td><td>Not vegetarian; salt level varies</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ FIXES ============ -->
+<section id="fixes">
+  <h2>Troubleshooting</h2>
+  <p class="note">Change one thing at a time and taste in between. These are suggested corrections, not verified results.</p>
+  <div class="controls" data-for="tbl-fix">
+    <input type="search" data-role="search" placeholder="Type a symptom: watery, bland, sweet, grainy&hellip;" aria-label="Search problems">
+    <span class="count"></span>
+  </div>
+  <div class="tw"><table id="tbl-fix" class="sortable">
+    <thead><tr><th><button type="button">Problem</button></th><th><button type="button">Likely cause</button></th><th><button type="button">What to try</button></th><th><button type="button">Prevent next time</button></th></tr></thead>
+    <tbody>
+      <tr><td>Too watery</td><td>Too much stock, moisture released by the pumpkin, or not enough vegetable body</td><td>Add cooked potato or another suitable thickener, or reduce using a method your model's instructions permit</td><td>Hold back some liquid until after blending</td></tr>
+      <tr><td>Too thick</td><td>Too little liquid, or soup stiffened after chilling</td><td>Add reserved liquid gradually until you reach the texture you want</td><td>Weigh pumpkin and liquid; add in stages</td></tr>
+      <tr><td>Bland</td><td>Underseasoning, mild stock, no contrast</td><td>Adjust salt, pepper and a little acid one step at a time</td><td>Check stock strength; season at the end</td></tr>
+      <tr><td>Too sweet</td><td>Naturally sweet pumpkin, carrot or sweet potato</td><td>Small amounts of lemon or lime juice, salt or a savoury spice; assess each separately</td><td>Choose add-ins to suit the sweetness you want</td></tr>
+      <tr><td>Stringy or grainy</td><td>Fibrous flesh, skin, or pieces not fully softened</td><td>Check tenderness and fibres; keep cooking if needed, then reblend safely</td><td>Peel for consistency; cut pieces evenly</td></tr>
+      <tr><td>Catching / scorching at the bowl base</td><td>Too little liquid, residue, wrong settings, mixture too thick</td><td>Stop and follow your model's instructions; don't scrape a hot running bowl or keep heating a scorched mixture</td><td>Use an appropriate liquid level and verified settings</td></tr>
+      <tr><td>Splashing / steam escaping when blending</td><td>Overfilled bowl, speed raised too fast, wrong lid accessory</td><td>Stop and follow the manual. Never force the lid open or cover an opening with a tea towel</td><td>Stay under max fill; start low, increase speed gradually</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ BOOSTERS ============ -->
+<section id="boosters">
+  <h2>Flavour boosters</h2>
+  <p class="note">Use one or two at a time so you can tell what changed.</p>
+  <div class="controls" data-for="tbl-boost">
+    <input type="search" data-role="search" placeholder="Search spice, acid, crunch&hellip;" aria-label="Search boosters">
+    <span class="count"></span>
+  </div>
+  <div class="tw"><table id="tbl-boost" class="sortable" style="min-width:560px">
+    <thead><tr><th><button type="button">Add-in</button></th><th><button type="button">Effect</button></th><th><button type="button">Useful when soup is&hellip;</button></th><th><button type="button">Watch out</button></th></tr></thead>
+    <tbody>
+      <tr><td>Ginger</td><td>Fresh, warm note</td><td>Sweet or one-dimensional</td><td>Easy to overdo</td></tr>
+      <tr><td>Curry powder / paste</td><td>Pronounced spiced character</td><td>Bland</td><td>Check salt and heat in the paste before more seasoning</td></tr>
+      <tr><td>Nutmeg</td><td>Complements creamy-style soup</td><td>Rich, creamy</td><td>A small amount only</td></tr>
+      <tr><td>Smoked paprika</td><td>Smoky, savoury</td><td>Sweet or flat</td><td>Can dominate</td></tr>
+      <tr><td>Lemon / lime juice</td><td>Acidity that balances sweetness</td><td>Too sweet or bland</td><td>Add a little, retaste</td></tr>
+      <tr><td>Toasted pumpkin seeds</td><td>Crunch against a smooth purée</td><td>Texturally flat</td><td>Add at serving</td></tr>
+      <tr><td>Black pepper</td><td>Mild heat, contrast</td><td>Bland</td><td>Season after blending</td></tr>
+      <tr><td>Fresh basil</td><td>Herbal finish</td><td>Needs a fresh garnish</td><td>Add at serving (optional in the reference recipe)</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ METHODS ============ -->
+<section id="methods">
+  <h2>Cooking method lookup</h2>
+  <div class="controls" data-for="tbl-meth">
+    <input type="search" data-role="search" placeholder="Search method, equipment&hellip;" aria-label="Search methods">
+    <span class="count"></span>
+  </div>
+  <div class="tw"><table id="tbl-meth" class="sortable">
+    <thead><tr><th><button type="button">Method</button></th><th><button type="button">Best for</button></th><th><button type="button">Flavour</button></th><th><button type="button">Liquid</button></th><th><button type="button">Equipment</button></th><th><button type="button">Watch out</button></th></tr></thead>
+    <tbody>
+      <tr><td>One-bowl (Thermomix)</td><td>Simple everyday soup, fewer dishes</td><td>Milder cooked-pumpkin flavour</td><td>Depends on pumpkin moisture</td><td>Thermomix, scale</td><td>Time and settings depend on piece size, variety and model</td></tr>
+      <tr><td>Roast first (oven)</td><td>Deeper, more concentrated flavour</td><td>Browned notes</td><td>May need less; roasting removes moisture</td><td>Oven tray, then Thermomix</td><td>Spread in one layer; start at 200&deg;C (400&deg;F), go by texture</td></tr>
+      <tr><td>Roast first (air fryer)</td><td>Small batches</td><td>Browned notes</td><td>May need less</td><td>Air fryer, then Thermomix</td><td>Time and moisture loss vary by appliance and cut</td></tr>
+      <tr><td>Varoma steaming</td><td>Cooking pumpkin separately before blending</td><td>Clean, mild</td><td>Collected steam liquid counts toward your total</td><td>Thermomix Varoma</td><td>No verified settings; confirm cut size, time and tenderness for your model</td></tr>
+      <tr><td>Stovetop (no Thermomix)</td><td>No machine, same principle</td><td>Similar to one-bowl</td><td>Measure; add more only as needed</td><td>Pot, stick or jug blender</td><td>Follow your blender's hot-liquid limits to avoid lid blow-off</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ STORAGE ============ -->
+<section id="storage">
+  <h2>Storage, freezing &amp; reheating</h2>
+  <p class="note">Based on USDA FSIS leftovers guidance (<a href="https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety">fsis.usda.gov</a>). Freezer time is a quality guide, not a safety cut-off.</p>
+  <div class="controls" data-for="tbl-store">
+    <input type="search" data-role="search" placeholder="Search fridge, freezer, reheat&hellip;" aria-label="Search storage">
+    <span class="count"></span>
+  </div>
+  <div class="tw"><table id="tbl-store" class="sortable" style="min-width:560px">
+    <thead><tr><th><button type="button">Situation</button></th><th><button type="button">Limit</button></th><th><button type="button">Handling</button></th></tr></thead>
+    <tbody>
+      <tr><td>Cooling</td><td>Within 2 hours</td><td>Divide into shallow containers so it cools fast; don't leave a deep pot of hot soup out</td></tr>
+      <tr><td>Room temperature</td><td>2 hours max (1 hour above 32&deg;C / 90&deg;F)</td><td>Discard perishable soup left out longer</td></tr>
+      <tr><td>Refrigerator</td><td>3&ndash;4 days</td><td>Covered, shallow containers at 4&deg;C (40&deg;F) or below</td></tr>
+      <tr><td>Freezer</td><td>About 2&ndash;3 months for best quality</td><td>Airtight freezer-suitable containers, leave room to expand, portion first</td></tr>
+      <tr><td>Freezing with cream / coconut milk</td><td>Same time guide</td><td>Texture may change on freezing and reheating; a quality issue, not a safety one</td></tr>
+      <tr><td>Reheating</td><td>74&deg;C (165&deg;F)</td><td>Heat all the way through, stir, verify temperature. Add a little liquid if it has thickened</td></tr>
+      <tr><td>Reheating in the Thermomix</td><td>Time varies</td><td>Use the settings your model allows; portion size and start temperature change the time</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ MODELS ============ -->
+<section id="models">
+  <h2>Thermomix model checklist</h2>
+  <p class="note">Settings differ by model. Your manual overrides any recipe.</p>
+  <div class="controls" data-for="tbl-model">
+    <input type="search" data-role="search" placeholder="TM5, TM6, TM7, TM31&hellip;" aria-label="Search models">
+    <span class="count"></span>
+  </div>
+  <div class="tw"><table id="tbl-model" class="sortable">
+    <thead><tr><th><button type="button">Model</button></th><th><button type="button">Confirm before cooking</button></th><th><button type="button">Official reference</button></th></tr></thead>
+    <tbody>
+      <tr><td>TM5</td><td>Cook time and temperature, accessory over the lid while cooking, max fill, hot-food blending procedure</td><td><a href="https://service.thermomix.com/hc/en-us/articles/360000661247-Important-Safeguards-for-Thermomix-TM5">TM5 safeguards</a></td></tr>
+      <tr><td>TM6</td><td>Updated safety guidance, simmering basket vs measuring cup when cooking at 95&deg;C (200&deg;F) or above, max fill, blending procedure. Soups no hotter than 100&deg;C (212&deg;F)</td><td><a href="https://service.thermomix.com/hc/en-us/articles/360034083374-Important-Safeguards-for-your-TM6">TM6 safeguards</a> &middot; <a href="https://service.thermomix.com/hc/en-us/articles/8749304155411-Thermomix-Measuring-Cup-Safety-Announcement-August-2022">Measuring-cup announcement</a></td></tr>
+      <tr><td>TM7</td><td>Current user-manual guidance, max quantities, soup-cooking mode, safe blending instructions</td><td><a href="https://globalsupport.vorwerk.com/hc/en-us/articles/22778891118748-Thermomix-TM7-User-Manual">TM7 user manual</a></td></tr>
+      <tr><td>TM31</td><td>Model-specific temperature and speed equivalents, max capacity, hot-liquid instructions</td><td>Your TM31 manual</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<footer>
+  <p>Data compiled from / expanded on this guide: <a href="https://kitchenmemo.com/thermomix-pumpkin-soup/">Thermomix pumpkin soup: roast vs one-bowl, liquid ratios and fixes</a>. Rows tagged "General" are standard cooking knowledge added for comparison and haven't been tested. This page isn't a substitute for your appliance manual or food-safety guidance. Last updated 26 Oct 2026.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- sorting ---------- */
+  function cellVal(td){
+    var d=td.getAttribute("data-sort");
+    return d!==null?d:td.textContent.trim();
+  }
+  var numRe=/^-?\d+(\.\d+)?$/;
+  function sortTable(table,idx,dir){
+    var body=table.tBodies[0];
+    var rows=Array.prototype.slice.call(body.rows);
+    rows.sort(function(a,b){
+      var x=cellVal(a.cells[idx]), y=cellVal(b.cells[idx]);
+      var c=(numRe.test(x)&&numRe.test(y))?parseFloat(x)-parseFloat(y):x.localeCompare(y,undefined,{sensitivity:"base"});
+      return dir*c;
+    });
+    rows.forEach(function(r){body.appendChild(r);});
+  }
+  Array.prototype.forEach.call(document.querySelectorAll("table.sortable"),function(table){
+    var ths=table.tHead.rows[0].cells;
+    Array.prototype.forEach.call(ths,function(th){
+      var btn=th.querySelector("button");
+      if(!btn) return;
+      btn.addEventListener("click",function(){
+        var dir=th.getAttribute("aria-sort")==="ascending"?-1:1;
+        Array.prototype.forEach.call(ths,function(o){o.removeAttribute("aria-sort");});
+        th.setAttribute("aria-sort",dir===1?"ascending":"descending");
+        sortTable(table,th.cellIndex,dir);
+      });
+    });
+  });
+
+  /* ---------- search + filters ---------- */
+  Array.prototype.forEach.call(document.querySelectorAll(".controls[data-for]"),function(box){
+    var table=document.getElementById(box.getAttribute("data-for"));
+    if(!table) return;
+    var search=box.querySelector('[data-role="search"]');
+    var filters=box.querySelectorAll('[data-role="filter"]');
+    var count=box.querySelector(".count");
+    function apply(){
+      var q=search?search.value.trim().toLowerCase():"";
+      var rows=table.tBodies[0].rows, shown=0;
+      Array.prototype.forEach.call(rows,function(row){
+        var ok=!q||row.textContent.toLowerCase().indexOf(q)!==-1;
+        if(ok){
+          Array.prototype.forEach.call(filters,function(f){
+            if(!f.value) return;
+            var tokens=(row.getAttribute("data-"+f.getAttribute("data-attr"))||"").split(" ");
+            if(tokens.indexOf(f.value)===-1) ok=false;
+          });
+        }
+        row.hidden=!ok;
+        if(ok) shown++;
+      });
+      if(count) count.textContent=shown+" of "+rows.length+" shown";
+    }
+    if(search) search.addEventListener("input",apply);
+    Array.prototype.forEach.call(filters,function(f){f.addEventListener("change",apply);});
+    apply();
+  });
+
+  /* ---------- batch scaler ---------- */
+  var $=function(id){return document.getElementById(id);};
+  function r(n,step){step=step||1;return Math.round(n/step)*step;}
+  function calc(){
+    var p=parseFloat($("c-pump").value), ratio=parseFloat($("c-ratio").value), hold=parseFloat($("c-hold").value);
+    var warn=$("c-warn");
+    if(!(p>0)||!(ratio>0)||isNaN(hold)){warn.textContent="Enter valid numbers.";return;}
+    hold=Math.min(Math.max(hold,0),100);
+    var f=p/500;
+    var onion=r(180*f,5), butter=r(20*f,1), cream=r(30*f,5);
+    var paste=Math.round(1*f*4)/4;
+    var liq=r(p*ratio,5), holdG=r(liq*hold/100,5), start=liq-holdG;
+    $("o-onion").textContent=onion+" g";
+    $("o-butter").textContent=butter+" g";
+    $("o-carrot").textContent=(Math.round(f*10)/10)+" \u00d7 the reference carrot";
+    $("o-paste").textContent=paste+" tbsp";
+    $("o-cream").textContent=cream+" g";
+    $("o-liq").textContent=liq+" g ("+ratio+" : 1 liquid to pumpkin)";
+    $("o-start").textContent=start+" g";
+    $("o-hold").textContent=holdG+" g";
+    $("o-blend").textContent="\u2248 "+(p+onion+butter+start)+" g";
+    $("o-final").textContent="\u2248 "+(p+onion+butter+liq+cream)+" g";
+    warn.textContent=f>1?"Batch is larger than the reference recipe. Check the total against your bowl's maximum fill marking before cooking.":"";
+  }
+  ["c-pump","c-ratio","c-hold"].forEach(function(id){$(id).addEventListener("input",calc);});
+  calc();
+})();
+</script>
+</body>
+</html>
